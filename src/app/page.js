@@ -246,7 +246,7 @@ export default function Home() {
               </div>
 
               <Image
-                src="/iphone15ProTitanium.png"
+                src="/iphone.png"
                 alt="Mobile App Mockup"
                 width={1000}
                 height={1200}
@@ -388,15 +388,15 @@ export default function Home() {
               </div>
 
               {/* Right Side - Mobile App Mockup and Food Boxes */}
-              <div className="z-10 w-full lg:w-[45%] flex items-center justify-center lg:justify-end py-8 lg:py-0 ">
+              <div className="z-10 w-full lg:w-[45%] flex items-center justify-center lg:justify-end py- lg:py-0 ">
                 <Image
                   //src="/iPhone 15 Pro - White Titanium Right.webp"
                   //src = "/home_screen.png"
-                  src="/iphone15ProTitanium.png"
+                  src="/iphone.png"
                   alt="Mobile App Mockup"
                   width={1000}
                   height={1200}
-                  className="absolute w-[150%] translate-x-[12%] top-[calc(-4%+7rem)] sm:w-[170%] md:w-[200%] lg:w-[220%] xl:w-[250%] h-auto object-contain scale-30 lg:scale-90"
+                  className="absolute w-[150%] translate-x-[12%] top-[calc(-8%+6rem)] sm:w-[170%] md:w-[200%] lg:w-[220%] xl:w-[250%] h-auto object-contain scale-30 lg:scale-90"
                   loading="lazy"
                 />
 
@@ -433,7 +433,7 @@ export default function Home() {
 
                 {/* Phone + background illustration */}
               </div>
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full flex justify-center allign-center">
                 {/* <Image
                   src="/Vector (2).webp"
                   alt="Phone Mockup"
@@ -447,7 +447,7 @@ export default function Home() {
                   alt="Phone Mockup"
                   width={700}
                   height={700}
-                  className="absolute -top-[5vh] right-[1-0vw] w-[80vw] h-[70vh] object-cover z-20"
+                  className="absolute -top-[5vh]  w-[80vw] h-[70vh] object-cover z-20"
                   loading="lazy"
                 />
               </div>
