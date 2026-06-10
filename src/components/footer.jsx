@@ -57,12 +57,12 @@ export default function Footer() {
           {/* Footer Content */}
           <div className="relative z-10 w-full max-w-4xl mx-auto mt-10 flex flex-col items-center">
             {/* Logo */}
-            <div className="h-18 w-fit">
+            <div className="h-24 w-fit">
               <Image
                 src="/logo.svg"
                 alt="Five Logo"
-                width={96}
-                height={96}
+                width={140}
+                height={140}
                 className="w-fit h-full object-contain"
               />
             </div>
@@ -119,14 +119,14 @@ export default function Footer() {
             {/* Legal/Policy Links */}
             <div className="flex flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-10 md:mb-12 text-sm sm:text-base whitespace-nowrap flex-wrap">
               {loading ? (
-                <div className="text-[#7A7A7A]/70">Loading...</div>
+                <div className="text-black/70">Loading...</div>
               ) : cmsPages.length > 0 ? (
                 cmsPages.map((page, index) => (
                   <span key={page.id || page.cmsId} className="flex items-center">
-                    {index > 0 && <span className="text-[#7A7A7A]/30 mx-2">•</span>}
+                    {index > 0 && <span className="text-black/30 mx-2">•</span>}
                     <Link
                       href={getCMSPageRoute(page.cmsId)}
-                      className="text-[#7A7A7A]/70 hover:text-[#7A7A7A] transition-colors"
+                      className="text-black/70 hover:text-black transition-colors"
                     >
                       {page.nameEn || page.name}
                     </Link>
@@ -180,7 +180,7 @@ export default function Footer() {
 
         {/* Bottom Footer Section with Copyright and Watermark */}
         <div className="flex flex-col items-center justify-center w-full bg-[#F0F0F0] pt-6 sm:py-8 md:pt-10 px-4 gap-15 overflow-hidden text-black">
-          <p className="text-[#7A7A7A]">© 2026 Five. All rights reserved.</p>
+          <p className="text-black/60">© 2026 Five. All rights reserved.</p>
           {/* Watermark - positioned at bottom */}
 
         </div>
@@ -197,9 +197,9 @@ export default function Footer() {
               <Image
                 src="/logo.svg"
                 alt="Five Logo"
-                width={80}
-                height={80}
-                className="w-fit h-18"
+                width={140}
+                height={140}
+                className="w-fit h-24"
               />
             </div>
 

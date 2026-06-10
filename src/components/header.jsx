@@ -21,13 +21,13 @@ export default function Header() {
       <nav className="block lg:hidden relative flex items-center justify-between px-4 sm:px-5 md:px-6 lg:px-10 xl:px-12 py-3 sm:py-4 md:py-5 bg-white z-20 z-50">
         {/* Logo and Brand Name */}
         <div className="flex items-center gap-2 sm:gap-3 md:gap-4 pl-3">
-          <div className="h-9 w-fit">
+          <div className="h-14 w-fit">
             <Image
               src="/logo.svg"
               alt="Five Logo"
-              width={56}
-              height={56}
-              className="w-fit h-9 object-contain "
+              width={80}
+              height={80}
+              className="w-fit h-14 object-contain "
               priority
             />
           </div>
@@ -56,9 +56,9 @@ export default function Header() {
           <Image
             src="/logo.svg"
             alt="Five Logo"
-            width={66}
-            height={66}
-            className="w-fit h-12  sm:h-14 md:h-12"
+            width={100}
+            height={100}
+            className="w-fit h-18 sm:h-22 md:h-18"
             priority
           />
         </div>

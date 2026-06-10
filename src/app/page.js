@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="bg-[#141414] flex flex-col overflow-x-hidden text-white min-w-screen min-h-screen w-full mx-auto">
       <Header />
-      <section className="relative flex flex-col min-h-screen bg-white mx-auto w-full">
+      <main className="relative flex flex-col min-h-screen bg-white mx-auto w-full">
         {/* Hero section */}
         <div className="relative w-full bg-white md:pt-[20vh]  ">
           <section className="block lg:hidden w-full ">
@@ -31,10 +31,11 @@ export default function Home() {
 
             <Image
               src="/Rectangle1490.webp"
-              alt="Healthy meal platter"
+              alt="Five curated luxury collections"
               width={1280}
               height={720}
               className="absolute top-[7%] md:top-[9%] -translate-x-1/2 left-1/2 h-[20vh] md:h-[40vh] object-cover max-w-7xl w-[90%] z-40"
+              sizes="(max-width: 768px) 100vw, 90vw"
               priority
             />
             {/* </div> */}
@@ -50,6 +51,7 @@ export default function Home() {
               width={1280}
               height={720}
               className="absolute top-[21%] -translate-x-1/2 left-1/2 max-w-7xl w-[90%] z-20"
+              sizes="(max-width: 1024px) 100vw, 1200px"
               priority
             />
 
@@ -195,11 +197,12 @@ export default function Home() {
               </div>
 
               <Image
-                src="/iphone.png"
+                src="/iphone.webp"
                 alt="Mobile App Mockup"
-                width={1000}
-                height={1200}
+                width={1280}
+                height={978}
                 className="absolute bottom-[-5%] left-1/2 -translate-x-1/2 h-[50vh] w-auto z-10 object-contain"
+                sizes="(max-width: 768px) 100vw, 500px"
                 loading="lazy"
               />
             </div>
@@ -234,8 +237,7 @@ export default function Home() {
 
                 {/* Tagline */}
                 <p className="text-white/60 text-base sm:text-lg md:text-xl mb-10 sm:mb-12 md:mb-16 opacity-90 leading-relaxed">
-                  From choosing meals to getting them delivered — we make it
-                  effortless.
+                  From selecting curated luxury items to having them elegantly delivered — we make it effortless.
                 </p>
 
                 {/* Process Steps */}
@@ -341,11 +343,12 @@ export default function Home() {
                 <Image
                   //src="/iPhone 15 Pro - White Titanium Right.webp"
                   //src = "/home_screen.png"
-                  src="/iphone.png"
+                  src="/iphone.webp"
                   alt="Mobile App Mockup"
-                  width={1000}
-                  height={1200}
+                  width={1280}
+                  height={978}
                   className="absolute w-[150%] translate-x-[12%] top-[calc(-8%+6rem)] sm:w-[170%] md:w-[200%] lg:w-[220%] xl:w-[250%] h-auto object-contain scale-30 lg:scale-90"
+                  sizes="(max-width: 1024px) 100vw, 600px"
                   loading="lazy"
                 />
 
@@ -392,10 +395,10 @@ export default function Home() {
                   loading="lazy"
                 /> */}
                 <Image
-                  src="/right_phone.png"
+                  src="/right_phone.webp"
                   alt="Phone Mockup"
-                  width={700}
-                  height={700}
+                  width={3966}
+                  height={2974}
                   className="absolute -top-[5vh]  w-[80vw] h-[70vh] object-cover z-20"
                   loading="lazy"
                 />
@@ -517,35 +520,37 @@ export default function Home() {
               {/* Left Content */}
 
               <Image
-                src="/left_phone.png"
+                src="/left_phone.webp"
                 alt="App Screenshot"
-                width={400}
-                height={800}
-                className="absolute w-[70%] md:w-[70%] lg:w-[70%] max-w-[400px] md:max-w-none object-contain absolute top-[5%] left-[0%] pointer-events-none"
+                width={3230}
+                height={2422}
+                className="absolute w-[70%] md:w-[70%] lg:w-[70%] max-w-[400px] md:max-w-none object-contain top-[5%] left-[-5%] pointer-events-none"
+                sizes="(max-width: 768px) 70vw, 400px"
                 loading="lazy"
               />
               <Image
-                src="/right_phone.png"
+                src="/right_phone.webp"
                 alt="App Screenshot"
-                width={400}
-                height={800}
-                className="absolute w-[80%] md:w-[80%] lg:w-[100%] max-w-[400px] md:max-w-none object-contain absolute top-[-20%] left-[5%] z-15 pointer-events-none"
+                width={3966}
+                height={2974}
+                className="absolute w-[80%] md:w-[80%] lg:w-[100%] max-w-[400px] md:max-w-none object-contain top-[-20%] left-[0%] z-15 pointer-events-none"
+                sizes="(max-width: 768px) 80vw, 400px"
                 loading="lazy"
               />
               <Image
-                src="/middle_phone.png"
+                src="/middle_phone.webp"
                 alt="App Screenshot"
-                width={400}
-                height={800}
-                className="absolute w-[70%] md:w-[70%] lg:w-[70%] max-w-[400px] md:max-w-none object-contain absolute top-[5%] left-[40%] z-10 pointer-events-none"
+                width={3230}
+                height={2422}
+                className="absolute w-[70%] md:w-[70%] lg:w-[70%] max-w-[400px] md:max-w-none object-contain top-[5%] left-[35%] z-10 pointer-events-none"
+                sizes="(max-width: 768px) 70vw, 400px"
                 loading="lazy"
               />
 
 
             </div>
 
-            <div className="absolute bottom-0 inset-x-0 h-[20vh] bg-linear-to-t from-white
-            via-white/60 via-60%  to-transparent z-110" />
+            <div className="absolute bottom-0 inset-x-0 h-[20vh] bg-linear-to-t from-white via-white/60 via-60% to-transparent z-110" />
 
 
           </section>
@@ -645,7 +650,7 @@ export default function Home() {
           </section>
 
         </div>
-      </section>
+      </main>
       <Footer />
     </div>
   );
