@@ -56,8 +56,8 @@ export default function Header() {
           <Image
             src="/logo.svg"
             alt="Five Logo"
-            width={56}
-            height={56}
+            width={66}
+            height={66}
             className="w-fit h-12  sm:h-14 md:h-12"
             priority
           />

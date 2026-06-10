@@ -15,43 +15,22 @@ export default function Home() {
       <Header />
       <section className="relative flex flex-col min-h-screen bg-white mx-auto w-full">
         {/* Hero section */}
-        <div className="relative w-full bg-white md:pt-[25vh]  ">
+        <div className="relative w-full bg-white md:pt-[20vh]  ">
           <section className="block lg:hidden w-full ">
             <div className="w-full h-[25vh] bg-white max-w-[1200px] mx-auto px-4 sm:px-5 md:px-6 lg:px-10 xl:px-12 flex flex-col items-center sm:items-start">
 
               <div className="absolute top-[2%] sm:top-[2%] md:top-[3%] left-4 sm:left-8 md:left-12 lg:left-16 xl:left-20 w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] max-w-[600px] sm:max-w-[700px] md:max-w-[800px] lg:max-w-[900px] z-10">
-                <h1 className="text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-4 sm:mb-6 uppercase tracking-tight">
+                <h1 className="text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-4 sm:mb-6 tracking-tight">
                   <span className="block">You Deserve Things</span>
                   <span className="block relative inline-block">
-                    MADE{" "}
-                    <span
-                      className="relative inline-block"
-                      style={{
-                        background:
-                          // "linear-gradient(90deg, #FE7E39 30%, #000000 100%)"
-                          "linear-gradient(90deg, #FE7E39 30%, #FFFFFF 100%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                        backgroundClip: "text",
-                      }}
-                    >
-                      SIMPLE...
-                      <Image
-                        src="/Vector (1).svg"
-                        alt="underline"
-                        width={351}
-                        height={20}
-                        className="absolute top-full left-0 mt-[1%] w-[200px] sm:w-[250px] md:w-[300px] lg:w-[351px] h-auto z-10"
-                        priority
-                      />
-                    </span>
+                    That Feel Good...
                   </span>
                 </h1>
               </div>
             </div>
 
             <Image
-              src="/Rectangle1490.svg"
+              src="/Rectangle1490.webp"
               alt="Healthy meal platter"
               width={1280}
               height={720}
@@ -66,7 +45,7 @@ export default function Home() {
 
 
             <Image
-              src="/Rectangle1490.svg"
+              src="/Rectangle1490.webp"
               alt="decoration"
               width={1280}
               height={720}
@@ -75,30 +54,10 @@ export default function Home() {
             />
 
             <div className="absolute top-[2%] sm:top-[12%] md:top-[-7%] lg:top-[-10%] sm:left-8 md:left-12 lg:left-10 xl:left-20 w-[1%]  lg:w-[90%] lg:h-[50%] z-10">
-              <h1 className="text-black  text-6xl font-bold leading-tight mb-4 sm:mb-6 uppercase tracking-tight">
+              <h1 className="text-black  text-6xl font-bold leading-tight mb-4 sm:mb-6 tracking-tight">
                 <span className="block">You Deserve Things</span>
                 <span className="block relative inline-block">
-                  MADE{" "}
-                  <span
-                    className="relative inline-block"
-                    style={{
-                      background:
-                        "linear-gradient(90deg, #FE7E39 30%, #000000 100%)",
-                      WebkitBackgroundClip: "text",
-                      WebkitTextFillColor: "transparent",
-                      backgroundClip: "text",
-                    }}
-                  >
-                    SIMPLE...
-                    <Image
-                      src="/Vector (1).svg"
-                      alt="underline"
-                      width={351}
-                      height={20}
-                      className="absolute top-full left-0 mt-[-1] w-[200px] sm:w-[250px] md:w-[300px] lg:w-[351px] h-auto z-10"
-                      priority
-                    />
-                  </span>
+                  That Feel Good...
                 </span>
               </h1>
             </div>
@@ -141,14 +100,14 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6 mb-6 sm:mb-8">
                     <div className="relative flex-shrink-0">
                       <Image
-                        src="/PickYourPlan.webp"
+                        src="/image.png"
                         alt="Find Your Favorites"
                         width={72}
                         height={72}
                         className="w-12 h-12 sm:w-11 sm:h-11 md:w-18 md:h-18"
                       />
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-[1] sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-[1] sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex flex-col flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -164,14 +123,14 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6 mb-6 sm:mb-8">
                     <div className="relative flex-shrink-0">
                       <Image
-                        src="/Customize&Schedule.webp"
+                        src="/image2.png"
                         alt="Personalize Every Order"
                         width={72}
                         height={72}
                         className="w-12 h-12 sm:w-11 sm:h-11 md:w-18 md:h-18"
                       />
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -197,7 +156,7 @@ export default function Home() {
                          />
                        
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -213,7 +172,7 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6">
                     <div className="flex-shrink-0">
                       <Image
-                        src="/Track&AdjustAnytime.webp"
+                        src="/image4.png"
                         alt="Shop Anytime, Anywhere"
                         width={72}
                         height={72}
@@ -285,7 +244,7 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6 mb-6 sm:mb-8">
                     <div className="relative flex-shrink-0">
                       <Image
-                        src="/PickYourPlan.webp"
+                        src="/image.png"
                         alt="Find Your Favorites"
                         width={72}
                         height={72}
@@ -293,7 +252,7 @@ export default function Home() {
                         loading="lazy"
                       />
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -309,14 +268,14 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6 mb-6 sm:mb-8">
                     <div className="relative flex-shrink-0">
                       <Image
-                        src="/Customize&Schedule.webp"
+                        src="/image2.png"
                         alt="Personalize Every Order"
                         width={72}
                         height={72}
                         className="w-8 h-8 sm:w-11 sm:h-11 md:w-18 md:h-18"
                       />
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -342,7 +301,7 @@ export default function Home() {
                          />
                        
                       {/* Dashed Line Below */}
-                      <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div>
+                      {/* <div className="absolute left-1/2 top-full mt-1 sm:mt-0 h-8 sm:h-10 md:h-12 w-0.5 border-l-2 border-dashed border-white opacity-50 transform -translate-x-1/2"></div> */}
                     </div>
                     <div className="flex-1 pt-1 sm:pt-2">
                       <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
@@ -358,7 +317,7 @@ export default function Home() {
                   <div className="relative flex items-start gap-4 sm:gap-6">
                     <div className="flex-shrink-0">
                       <Image
-                        src="/Track&AdjustAnytime.webp"
+                        src="/image4.png"
                         alt="Shop Anytime, Anywhere"
                         width={72}
                         height={72}

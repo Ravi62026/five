@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <head>
         {/* Preload critical SVGs for faster initial load */}
         <link rel="preload" href="/logo.svg" as="image" type="image/svg+xml" />
-        <link rel="preload" href="/Rectangle1490.svg" as="image" type="image/svg+xml" />
+        <link rel="preload" href="/Rectangle1490.webp" as="image" type="image/webp" />
         <link rel="preload" href="/Vector (1).svg" as="image" type="image/svg+xml" />
       </head>
       <body

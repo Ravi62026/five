@@ -39,7 +39,7 @@ export default function CMSPageContent() {
           setCmsData(data);
         }
       } catch (err) {
-        console.error("Error fetching CMS content:", err);
+        console.warn("Error fetching CMS content:", err.message || err);
         setError("Failed to load content. Please try again later.");
       } finally {
         setLoading(false);

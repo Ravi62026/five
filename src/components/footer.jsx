@@ -29,7 +29,7 @@ export default function Footer() {
         );
         setCmsPages(sortedPages);
       } catch (error) {
-        console.error("Error fetching CMS pages:", error);
+        console.warn("Error fetching CMS pages:", error.message || error);
         // Fallback to default links if API fails
         setCmsPages([]);
       } finally {

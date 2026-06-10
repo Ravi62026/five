@@ -30,7 +30,7 @@ export async function getAllCMSPages() {
     
     return [];
   } catch (error) {
-    console.error('Error fetching CMS pages:', error);
+    console.warn('Error fetching CMS pages:', error.message || error);
     // Return empty array on error to prevent breaking the UI
     return [];
   }
@@ -71,7 +71,7 @@ export async function getCMSPage(cmsId, lang = null) {
     
     return null;
   } catch (error) {
-    console.error('Error fetching CMS page:', error);
+    console.warn('Error fetching CMS page:', error.message || error);
     return null;
   }
 }
