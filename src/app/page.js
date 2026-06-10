@@ -119,16 +119,6 @@ export default function Home() {
               {/* Top Section - Logo, Title, Tagline (Centered) */}
               <div className="relative z-2 w-full flex flex-col items-center mt-[8vh] md:mt-[2vh]  px-4 sm:px-6">
                 {/* Logo - Centered at top */}
-                <div className="pt-5 md:pt-10 mb-2 sm:mb-2 md:mb-12">
-                  <Image
-                    src="/TheSoarratwayicon.svg"
-                    alt="Five Logo"
-                    width={80}
-                    height={80}
-                    className="w-8 h-10 sm:w-16 sm:h-16 md:w-16 md:h-20 h-8 mx-auto"
-                    loading="lazy"
-                  />
-                </div>
 
                 {/* Title - Centered */}
                 <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 leading-tight text-center">
@@ -604,12 +594,7 @@ export default function Home() {
           <div className="absolute  w-full h-[10vh] overflow-hidden py-1 mt-12 z-200 overflow-visible">
             {/* Slanted Banner */}
             <div className="relative w-full max-lg:hidden flex items-center justify-center">
-              <div className="
-  relative px-8 sm:px-12 md:px-16 lg:px-20
-  py-4 sm:py-5 md:py-6
-  transform rotate-[-2deg] sm:rotate-[-1.5deg] md:rotate-[-4deg]
-  shadow-[0_-18px_35px_rgba(0,0,0,0.35),_0_18px_35px_rgba(0,0,0,0.35)]
-"
+              <div className="relative px-8 sm:px-12 md:px-16 lg:px-20 py-4 sm:py-5 md:py-6 transform rotate-[-2deg] sm:rotate-[-1.5deg] md:rotate-[-4deg] shadow-[0_-18px_35px_rgba(0,0,0,0.35),_0_18px_35px_rgba(0,0,0,0.35)] "
                 style={{
                   background: 'linear-gradient(135deg, #2a2a2a 0%, #111111 100%)',
                   borderTop: '2px solid white',
